@@ -1,0 +1,107 @@
+/*David Augello Exposito*/
+/*Contacto_CSS*/
+    /*Header*/
+        .menu_horizontal{
+            background-color: rgb(25, 25, 25);
+            display: flow-root;
+        }
+        .logo_titulo{
+            float: left;
+            padding-left: 50px;
+        }
+        .logo_menu{
+            width: 50px;
+            height: 50px;
+            display: inline;
+        }
+        .primeras_letras{
+            color: white;
+        }
+        .titulo_menu{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(255, 150, 0);
+            float: inline-end;
+            padding-left: 10px;
+        }
+        .botonera_menu{
+            float: right;
+            padding-right: 50px;
+        }
+        .lista_botonera{
+            list-style-type: none;
+        }
+        .boton_menu{
+            display: inline;
+        }
+        .enlace{
+            text-decoration: none;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 25px;
+        }
+        .enlace:hover{
+            color: rgb(255, 150, 0);
+            font-weight: 900;
+        }
+    /*Main*/
+    .titulo_pagina{
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .letras_titulo{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        text-align: center;
+    }
+    .contenedor_principal{
+        display: flow-root;
+    }
+    .contenedor_informacion{
+        float: left;
+        width: 45%;
+        padding-left: 75px;
+    }
+    .logotipos{
+        padding-top: 20px;
+        padding-left: 250px;
+    }
+    .logo_allshoes{
+        width: 40%;
+    }
+    .contenedor_formulario{
+        float: right;
+        width: 45%;
+        padding-right: 75px;
+    }
+    .texto_pagina{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .formulario {
+        margin-bottom: 10px;
+    }
+    .casilla_formulario {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .enlace_condiciones{
+        color: rgb(0, 0, 255);
+    }
+    .boton_envio:hover{
+        color: rgb(255, 150, 0);
+            font-weight: 900;
+    }
+    .boton_envio{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(25, 25, 25);
+            padding: 10px 30px;
+            border-radius: 20px / 20px;
+            text-decoration: none;
+            color: white;
+            margin-left: 15px;
+            float: right;
+    }
+    

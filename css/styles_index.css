@@ -1,0 +1,99 @@
+/*David Augello Exposito*/
+/*Index_CSS*/
+    /*Header*/
+        .menu_horizontal{
+            background-color: rgb(25, 25, 25);
+            display: flow-root;
+        }
+        .logo_titulo{
+            float: left;
+            padding-left: 50px;
+        }
+        .logo_menu{
+            width: 50px;
+            height: 50px;
+            display: inline;
+        }
+        .primeras_letras{
+            color: white;
+        }
+        .titulo_menu{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(255, 150, 0);
+            float: inline-end;
+            padding-left: 10px;
+        }
+        .botonera_menu{
+            float: right;
+            padding-right: 50px;
+        }
+        .lista_botonera{
+            list-style-type: none;
+        }
+        .boton_menu{
+            display: inline;
+        }
+        .enlace{
+            text-decoration: none;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 25px;
+        }
+        .enlace:hover{
+            color: rgb(255, 150, 0);
+            font-weight: 900;
+        }
+    /*Main*/
+        .contenido_principal{
+            background-image: url(../img/Carroussel-1.webp);
+            background-size: cover;
+            width: auto;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 500px;
+        }
+        .texto_portada{
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-top: 100px;
+            padding-left: 75px;
+        }
+        .linea_texto{
+            display: block;
+        }
+        .contenido_adicional{
+            display: flow-root;
+            margin-top: 20px;
+        }
+        .seccion_compra{
+            float: left;
+            width: 50%;
+        }
+        .texto_compra{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-bottom: 50px;
+        }
+        .boton_compra:hover{
+            color: rgb(255, 150, 0);
+            font-weight: 900;
+        }
+        .boton_compra{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(25, 25, 25);
+            padding: 10px 30px;
+            border-radius: 20px / 20px;
+            text-decoration: none;
+            color: white;
+            margin-left: 15px;
+        }
+        .galeria{
+            float: right;
+            width: 50%;
+        }
+        .imagen_galeria{
+            width: 300px;
+            height: 300px;
+        }
+
+
+

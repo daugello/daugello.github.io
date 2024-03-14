@@ -1,0 +1,101 @@
+/*David Augello Exposito*/
+/*Tienda_CSS*/
+    /*Header*/
+        .menu_horizontal{
+            background-color: rgb(25, 25, 25);
+            display: flow-root;
+        }
+        .logo_titulo{
+            float: left;
+            padding-left: 50px;
+        }
+        .logo_menu{
+            width: 50px;
+            height: 50px;
+            display: inline;
+        }
+        .primeras_letras{
+            color: white;
+        }
+        .titulo_menu{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(255, 150, 0);
+            float: inline-end;
+            padding-left: 10px;
+        }
+        .botonera_menu{
+            float: right;
+            padding-right: 50px;
+        }
+        .lista_botonera{
+            list-style-type: none;
+        }
+        .boton_menu{
+            display: inline;
+        }
+        .enlace{
+            text-decoration: none;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 25px;
+        }
+        .enlace:hover{
+            color: rgb(255, 150, 0);
+            font-weight: 900;
+        }
+    /*Main*/
+        .titulo_pagina{
+            border-top: 1px solid;
+            border-bottom: 1px solid;
+            margin-top: 20px;
+        }
+        .letras_titulo{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: italic;
+            text-align: center;
+        }
+        .contenido_principal{
+            display: flow-root;
+            padding-top: 75px;
+        }
+        .contenido_venta{
+            display: inline-block;
+            margin: 70px;
+            padding-left: 15px;
+        }
+        .imagen_producto{
+            width: 300px;
+        }
+        .descripccion_producto{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-left: 80px;
+        }
+        .producto_precio{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-left: 100px;
+            margin-bottom: 30px;
+        }
+        .agregar_carrito:hover,.boton_navegacion:hover{
+            color: rgb(255, 150, 0);
+            font-weight: 900;
+        }
+        .agregar_carrito{
+            margin-left: 50px;
+            text-decoration: none;
+            color: white;
+            background-color: rgb(25, 25, 25);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 10px;
+            border-radius: 20px / 20px;
+        }
+        .botonera_navegacion{
+            float: right;
+            margin-right: 100px;
+        }
+        .boton_navegacion{
+            text-decoration: none;
+            color: white;
+            background-color: rgb(25, 25, 25);
+            padding: 5px 10px;
+            border-radius: 100%;
+        }
